@@ -5,13 +5,13 @@ from scoreboard import Scoreboard
 import time
 
 screen = Screen()
-screen.bgcolor("black")
+screen.bgcolor("dark slate gray")
 screen.setup(800, 600)
 screen.title("Pong Game")
 screen.tracer(0)
 
-r_Paddle = Paddle((350, 0))
-l_Paddle = Paddle((-350, 0))
+r_Paddle = Paddle((350, 0), "cyan")
+l_Paddle = Paddle((-350, 0), "deep pink")
 ball = Ball()
 scoreboard = Scoreboard()
 
