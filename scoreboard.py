@@ -14,9 +14,9 @@ class Scoreboard(Turtle):
     def update_scoreboard(self):
         self.clear()
         self.goto(-100, 200)
-        self.write(self.l_score, align="center",font=("Courier", 60, "bold"))
+        self.write(self.l_score, align="center",font=("Impact", 60, "bold"))
         self.goto(100, 200)
-        self.write(self.r_score, align="center",font=("Courier", 60, "bold"))
+        self.write(self.r_score, align="center",font=("Impact", 60, "bold"))
         
     def l_point(self):
         self.l_score += 1
